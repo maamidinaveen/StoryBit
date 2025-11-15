@@ -5,6 +5,7 @@ export interface Movie {
   backdrop_path?: string | null;
   overview?: string;
   release_date?: string;
+  vote_average?: number;
 }
 
 export interface MovieListResponse {
