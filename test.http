@@ -1,0 +1,3 @@
+GET https://api.themoviedb.org/3/movie/popular
+Accept: application/json 
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwNWM3Y2U5NzQ3ZjY5OGNiOWU5ZDMxNDM3ZjMyMTRkMSIsIm5iZiI6MTc2MzEwMDM4NS41NCwic3ViIjoiNjkxNmM2ZTE5ZTBlZGI1OTlmODc2OGI2Iiwic2NvcGVzIjpbImFwaV9yZWFkIl0sInZlcnNpb24iOjF9.df1Jvcb8FShidvlGw9qZsbhwxxVql7bHSAE-ouuzN0M
