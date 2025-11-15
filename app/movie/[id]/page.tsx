@@ -1,14 +1,17 @@
-// import { fetchMovieById } from "@/lib/tmdb";
+// app/movie/[id]/page.tsx
 
-// import { Movie } from "@/types/movie";
+type MoviePageProps = {
+  params: {
+    id: string;
+  };
+};
 
-// export default async function MoviePage({
-//   params,
-// }: {
-//   params: { id: string };
-// }) {
-//   const data = await fetchMovieById(params.id);
-//   // render details
-
-//   return <h1>This is movie card</h1>;
-// }
+export default function MoviePage({ params }: MoviePageProps) {
+  return (
+    <main className="min-h-screen flex items-center justify-center">
+      <h1 className="text-2xl font-semibold">
+        Movie details page – ID: {params.id}
+      </h1>
+    </main>
+  );
+}
